@@ -1,0 +1,29 @@
+{
+  "name": "Gatekeeper Telegram Bot",
+  "description": "Gatekeeper Telegram Bot",
+  "repository": "https://github.com/avalak-work/gatekeeper-bot",
+  "formation": {
+    "service": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "env": {
+    "TELEGRAM_TOKEN": {
+      "description": "Telegram Bot Token",
+      "required": "true"
+    },
+    "MONGODB_DSN": {
+      "description": "MongoDB DSN",
+      "required": "true"
+    }
+  },
+  "addons": [
+  ],
+  "stack": "heroku-20",
+  "keywords": [
+    "python",
+    "telegram",
+    "bot"
+  ]
+}

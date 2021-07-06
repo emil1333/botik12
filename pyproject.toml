@@ -1,0 +1,11 @@
+## pyproject.toml
+## https://setuptools.readthedocs.io/en/latest/setuptools.html#setup-cfg-only-projects
+## PEP-518 https://www.python.org/dev/peps/pep-0518/#id26
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+  "setuptools >= 42",
+  "wheel >= 0.29.0",
+  "setuptools_scm[toml] >= 3.4"
+]

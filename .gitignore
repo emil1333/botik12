@@ -1,0 +1,27 @@
+## .gitignore
+## https://git-scm.com/docs/gitignore
+
+## Editors
+.idea/
+.vscode/.ropeproject/
+
+## Virtualenv
+venv/
+
+
+dist/
+build/
+.pip/
+.eggs/
+.tox/
+.pytest_cache/
+htmlcov/
+**/*.egg-info/
+**/__pycache__/
+*.py[cod]
+*.mo
+.coverage
+
+## Preserve setup.py
+/*.py
+!setup.py
